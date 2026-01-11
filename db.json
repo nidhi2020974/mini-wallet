@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nidhi",
+      "balance": 5000
+    },
+    {
+      "id": "2",
+      "name": "Rahul",
+      "balance": 3000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "4b7c",
+      "type": "credit",
+      "amount": 500,
+      "status": "success",
+      "date": "2026-01-07T16:28:51.979Z"
+    },
+    {
+      "id": "50f4",
+      "type": "credit",
+      "amount": 1000,
+      "status": "success",
+      "date": "2026-01-07T16:40:59.722Z"
+    },
+    {
+      "id": "e025",
+      "type": "debit",
+      "amount": 200,
+      "fee": 4,
+      "status": "success",
+      "date": "2026-01-07T16:41:09.101Z"
+    },
+    {
+      "id": "a34d",
+      "type": "credit",
+      "amount": 500,
+      "status": "success",
+      "date": "2026-01-07T17:21:31.380Z"
+    },
+    {
+      "id": "6973",
+      "type": "credit",
+      "amount": 700,
+      "status": "success",
+      "date": "2026-01-07T17:28:37.950Z"
+    },
+    {
+      "id": "e780",
+      "type": "debit",
+      "amount": 200,
+      "fee": 4,
+      "status": "success",
+      "date": "2026-01-07T17:29:12.421Z"
+    },
+    {
+      "id": "e374",
+      "type": "credit",
+      "amount": 100,
+      "status": "success",
+      "date": "2026-01-08T07:01:51.089Z"
+    },
+    {
+      "id": "c10e",
+      "type": "credit",
+      "amount": 100,
+      "status": "success",
+      "date": "2026-01-08T07:19:27.535Z"
+    },
+    {
+      "id": "f233",
+      "type": "debit",
+      "amount": 150,
+      "fee": 3,
+      "status": "success",
+      "date": "2026-01-08T07:19:58.787Z"
+    },
+    {
+      "id": "371c",
+      "type": "credit",
+      "amount": 300,
+      "status": "success",
+      "date": "2026-01-08T08:08:27.261Z"
+    },
+    {
+      "id": "5b8b",
+      "type": "debit",
+      "amount": 10,
+      "fee": 0.2,
+      "status": "success",
+      "date": "2026-01-08T08:08:58.770Z"
+    },
+    {
+      "id": "3a70",
+      "type": "credit",
+      "amount": 400,
+      "status": "success",
+      "date": "2026-01-11T06:11:38.069Z"
+    },
+    {
+      "id": "483d",
+      "type": "debit",
+      "amount": 200,
+      "fee": 4,
+      "status": "success",
+      "date": "2026-01-11T06:12:19.962Z"
+    },
+    {
+      "id": "01fb",
+      "type": "debit",
+      "amount": 100,
+      "fee": 2,
+      "status": "success",
+      "date": "2026-01-11T06:53:38.237Z"
+    },
+    {
+      "id": "d897",
+      "type": "debit",
+      "amount": 50,
+      "fee": 1,
+      "status": "success",
+      "date": "2026-01-11T06:53:57.775Z"
+    },
+    {
+      "id": "b07d",
+      "type": "debit",
+      "amount": 40,
+      "fee": 0.8,
+      "status": "success",
+      "date": "2026-01-11T13:38:15.483Z"
+    },
+    {
+      "id": "ffad",
+      "type": "credit",
+      "amount": 400,
+      "status": "success",
+      "date": "2026-01-11T16:15:05.083Z"
+    },
+    {
+      "id": "483c",
+      "type": "credit",
+      "amount": 200,
+      "status": "success",
+      "date": "2026-01-11T16:15:34.518Z"
+    }
+  ]
+}
