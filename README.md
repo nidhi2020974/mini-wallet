@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# Mini Wallet Application
+MINI WALLET APPLICATION
+This project is a simple fintech-style web application built to demonstrate frontend development, mock API integration, business logic, and basic testing.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application allows a user to manage a wallet by adding money, transferring money with fees and limits, and viewing transaction history.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Wallet balance display
+- Add money to wallet
+- Transfer money with validation and confirmation
+- Transaction history with filters and pagination
+- Soft delete for transactions
+- Dark mode toggle
+- Mock backend using JSON Server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- React (Create React App)
+- JavaScript
+- JSON Server (Mock API)
+- Axios
+- CSS
+- Jest & React Testing Library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install dependencies
+From the project root directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Mini Wallet Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is a simple fintech-style web application built to demonstrate frontend development, mock API integration, business logic, and basic testing.
 
-### `npm run eject`
+The application allows a user to manage a wallet by adding money, transferring money with fees and limits, and viewing transaction history.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Wallet balance display
+- Add money to wallet
+- Transfer money with validation and confirmation
+- Transaction history with filters and pagination
+- Soft delete for transactions
+- Dark mode toggle
+- Mock backend using JSON Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React (Create React App)
+- JavaScript
+- JSON Server (Mock API)
+- Axios
+- CSS
+- Jest & React Testing Library
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Install dependencies
+From the project root directory:
 
-### Analyzing the Bundle Size
+```bash
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Start the mock API server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In one terminal window:
+json-server --watch db.json --port 3001
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The API will be available at:
+http://localhost:3001
 
-### Deployment
+Start the React application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+In a second terminal window:
+npm start
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will run at:
+http://localhost:3000
+
+Running Tests
+
+Tests can be started with:
+npm test
+
+
+Basic component tests are included. API calls are mocked during testing.
+
+Project Structure
+
+src/components – UI components
+
+src/api – API abstraction layer
+
+App.js – Main application logic and state management
+
+db.json – Mock API data for JSON Server
+
+Architecture Notes:
+State is managed using React hooks.
+Business rules such as fees, limits, and balance checks are handled on the client side.
+API interactions are separated from UI logic.
+Pagination and filtering are implemented on the frontend.
+
+Assumptions:
+Single-user wallet (no authentication).
+All data is stored using a mock API.
+Pagination is handled on the client side.
+
+Limitations:
+No real backend or database.
+No authentication or user roles.
+Limited automated test coverage.
+Client-side pagination only.
+
+Screenshots:
+Screenshots demonstrating the main flows of the application are available in the /screenshots folder.
+
+
+
+```bash
+npm install
